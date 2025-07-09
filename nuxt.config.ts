@@ -9,6 +9,18 @@ export default defineNuxtConfig({
     "@/": resolve(__dirname, "./"),
   },
 
+  app: {
+    head: {
+      link: [
+        {
+          rel: "icon",
+          type: "image/svg+xml",
+          href: "/favicon.svg",
+        },
+      ],
+    },
+  },
+
   css: ["@/assets/css/main.css"],
   modules: [
     "@nuxtjs/google-fonts",
