@@ -25,13 +25,13 @@
 
 <style scoped>
 .hero {
-  padding: 61rem 1rem;
+  padding: 8rem 1rem;
   color: #fff;
   text-align: center;
 }
 
 .hero-content {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
