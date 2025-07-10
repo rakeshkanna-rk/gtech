@@ -1,6 +1,57 @@
 :root{
     --text-color: #fefefe;
+    --w-p-color: #E5E5E5;
     --text-hover: #d6d6d6;
 
-    
+
+  --bg-color: linear-gradient(
+    191.62deg,
+    rgba(8, 0, 16, 1) 0%,
+    rgb(12, 0, 23) 100%
+  );
+  --primary-font: "Poppins", sans-serif;
+  --style-font: "Cambo", serif;
+  --playball-font: "Playball", cursive;
+
+  --side-pad: 0 80px;
+  --padding: 20px 80px;
+  --mobi-padding: 20px 15px;
+  --h1: 48px;
+  --h2: 30px;
+  --h3: 20px;
+  --p: 16px;
+  --white-text-gradiant: linear-gradient(
+    180deg,
+    rgba(152, 152, 152, 1) 0%,
+    rgba(254, 254, 254, 1) 100%
+  );
+  --blue-color: #149ed4;
+  --dark-blue-color: #000986;
+  --green-color: #14d42a;
+  --red-color: #ff0000;
+  --white-color: #fefefe;
+  --glass-color-01: rgba(255, 255, 255, 0.01);
+  --glass-color-02: rgba(255, 255, 255, 0.02);
+  --glass-color-03: rgba(255, 255, 255, 0.03);
+  --glass-color-04: rgba(255, 255, 255, 0.04);
+  --glass-color-05: rgba(255, 255, 255, 0.05);
+  --glass-color-06: rgba(255, 255, 255, 0.06);
+  --glass-color-07: rgba(255, 255, 255, 0.07);
+  --glass-color-08: rgba(255, 255, 255, 0.08);
+  --glass-color-09: rgba(255, 255, 255, 0.09);
+  --glass-color-10: rgba(255, 255, 255, 0.1);
+  --glass-color-15: rgba(255, 255, 255, 0.15);
+  --radial-black: radial-gradient(
+    closest-side,
+    rgba(51, 51, 51, 1) 0%,
+    rgba(35, 35, 35, 1) 100%
+  );
+  --black-boarder: 2px solid #464646;
+  --insta-gradiant: linear-gradient(
+    60deg,
+    rgba(255, 0, 170, 1),
+    rgba(255, 77, 64, 1),
+    rgba(204, 79, 92, 1),
+    rgba(115, 0, 255, 1)
+  );
 }

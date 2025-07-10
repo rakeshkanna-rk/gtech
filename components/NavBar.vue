@@ -1,10 +1,6 @@
 <script setup>
 const links = [
   {
-    name: "HOME",
-    href: "/",
-  },
-  {
     name: "ABOUT",
     href: "/about",
   },
@@ -54,14 +50,14 @@ const links = [
 
 <style scoped>
 .logo {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   cursor: pointer;
 }
 
 .navbar {
   background: linear-gradient(to right, #6600ce, #330068);
-  padding: 1rem 4rem;
+  padding: .7rem 4rem;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 

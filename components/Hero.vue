@@ -1,17 +1,17 @@
 <template>
-    <section class="hero">
+  <section class="hero">
     <div class="hero-content">
+      <EventHeadBtn />
       <h1>Generalize Technology</h1>
       <h2>A Fine Arts Association at GNC</h2>
       <p>
-        G-Tech fosters tech innovation, bridges academia and industry, and
-        empowers students to become tomorrow's leaders.
+        {{ subTitle }}
       </p>
       <div class="ctaSection">
         <NuxtLink to="/projects" class="cta viewProjects"
-          >VIEW PROJECTS</NuxtLink
-        >
-        <NuxtLink to="/projects" class="cta upcomingEvents"
+          >VIEW PROJECTS <img src="~/assets/icons/right-arrow.svg" alt=""
+        /></NuxtLink>
+        <NuxtLink to="/register" class="cta upcomingEvents"
           >REGISTER NOW</NuxtLink
         >
       </div>
@@ -21,6 +21,8 @@
 
 <script setup>
 // Props, refs, and logic go here
+const subTitle =
+  "G-Tech fosters tech innovation, bridges academia and industry, and empowers students to become tomorrow’s leaders.";
 </script>
 
 <style scoped>
@@ -31,8 +33,10 @@
 }
 
 .hero-content {
-  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
+  gap: 20px;
 }
 
 .hero h1 {
@@ -52,7 +56,10 @@
   font-size: 1.2rem;
   line-height: 1.6;
   margin-bottom: 2rem;
-  color: #e5e5e5;
+  color: var(--w-p-color);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .ctaSection {
@@ -62,25 +69,33 @@
 }
 
 .cta {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 15px 30px;
   text-decoration: none;
   transition: background 0.3s ease;
-}
-
-.viewProjects {
-  background-color: white;
-  color: black;
   border-radius: 0.8rem;
 }
 
-.viewProjects:hover {
-  background-color: #f3f3f3;
+.viewProjects {
+  background-color: var(--text-color);
+  font-weight: 600;
+  color: #6600CE;
 }
+
+.viewProjects:hover {
+  background: linear-gradient(to right, #6600ce, #330068);
+  color: var(--text-color);
+}
+
+ .viewProjects:hover img {
+   filter: brightness(0) invert(1);
+ }
 
 .upcomingEvents {
   color: white;
+  font-weight: 600;
+  border: 1px solid var(--w-p-color); 
 }
-
 </style>
