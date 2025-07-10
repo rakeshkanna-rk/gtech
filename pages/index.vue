@@ -1,9 +1,10 @@
 <template>
   <Hero />
+  <WhoWeAre />
 </template>
 
 <script setup>
 useHead({
-  title: 'G-Tech',
-})
+  title: "G-Tech",
+});
 </script>
