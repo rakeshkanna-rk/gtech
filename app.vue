@@ -12,6 +12,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: #06000C;
+  font-family: "Poppins", sans-serif;
 }
 </style>
