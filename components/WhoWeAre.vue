@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <div class="content">
+      <!-- content -->
       <h2>Who we are?</h2>
       <p>
         G-Tech (Generalized Technology) is the official Fine Arts Association of
@@ -16,15 +17,15 @@
       <div class="card-row">
         <div class="info-card">
           <div class="icon-placeholder"></div>
-          <p>Creativity meets innovation in all our events.</p>
+          <p>Faster creativity and innovation among students.</p>
         </div>
         <div class="info-card">
           <div class="icon-placeholder"></div>
-          <p>Workshops to enhance your artistic and tech skills.</p>
+          <p>Provies a platform to expore art, design and technology.</p>
         </div>
         <div class="info-card">
           <div class="icon-placeholder"></div>
-          <p>Celebrating passion and collaboration in every form.</p>
+          <p>Bridge the gap between imagination and execution.</p>
         </div>
       </div>
     </div>
@@ -32,6 +33,7 @@
 </template>
 
 <style scoped>
+/* Page styles */
 .container {
   display: flex;
   justify-content: center;
@@ -55,6 +57,7 @@ p {
   line-height: 1.6;
 }
 
+/* card styles */
 .card-row {
   display: flex;
   justify-content: center;
