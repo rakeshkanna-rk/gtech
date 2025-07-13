@@ -11,6 +11,22 @@
         believe in the power
       </p>
       <p>of combining art and technology to create meaningful experiences.</p>
+
+      <!-- Small cards row -->
+      <div class="card-row">
+        <div class="info-card">
+          <div class="icon-placeholder"></div>
+          <p>Creativity meets innovation in all our events.</p>
+        </div>
+        <div class="info-card">
+          <div class="icon-placeholder"></div>
+          <p>Workshops to enhance your artistic and tech skills.</p>
+        </div>
+        <div class="info-card">
+          <div class="icon-placeholder"></div>
+          <p>Celebrating passion and collaboration in every form.</p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -30,13 +46,43 @@
 
 h2 {
   font-size: 2rem;
-  margin-bottom: 3.3em;
+  margin-bottom: 2em;
 }
 
 p {
   color: rgb(156, 151, 151);
-  /* color: gray; */
   font-size: 1.6rem;
   line-height: 1.6;
+}
+
+.card-row {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.info-card p {
+  color: black;
+  font-size: 20px;
+}
+
+.info-card {
+  background-color: white;
+  height: 125px;
+  width: 275px;
+  border-radius: 25px;
+  padding: 1rem;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.icon-placeholder {
+  width: 64px;
+  height: 64px;
+  background-color: #e0e0e0;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
 }
 </style>
