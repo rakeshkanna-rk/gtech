@@ -96,10 +96,17 @@ const links = [
   padding: 10px 20px;
   border-radius: 100px;
   text-decoration: none;
-  transition: background-color 0.3s ease;
+  transition: box-shadow 0.3s ease;
 }
 
 .join-button:hover {
-  background-color: #f3f4f6;
+  box-shadow: 0 0 20px #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-links {
+    display: none;
+  }
+  
 }
 </style>

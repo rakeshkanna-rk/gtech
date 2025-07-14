@@ -2,29 +2,9 @@
     --text-color: #fefefe;
     --w-p-color: #E5E5E5;
     --text-hover: #d6d6d6;
+    --bg-color: #06000C;
 
 
-  --bg-color: linear-gradient(
-    191.62deg,
-    rgba(8, 0, 16, 1) 0%,
-    rgb(12, 0, 23) 100%
-  );
-  --primary-font: "Poppins", sans-serif;
-  --style-font: "Cambo", serif;
-  --playball-font: "Playball", cursive;
-
-  --side-pad: 0 80px;
-  --padding: 20px 80px;
-  --mobi-padding: 20px 15px;
-  --h1: 48px;
-  --h2: 30px;
-  --h3: 20px;
-  --p: 16px;
-  --white-text-gradiant: linear-gradient(
-    180deg,
-    rgba(152, 152, 152, 1) 0%,
-    rgba(254, 254, 254, 1) 100%
-  );
   --blue-color: #149ed4;
   --dark-blue-color: #000986;
   --green-color: #14d42a;
@@ -54,4 +34,32 @@
     rgba(204, 79, 92, 1),
     rgba(115, 0, 255, 1)
   );
+}
+
+
+/* Scrollbar for WebKit (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* Firefox (works with scrollbar-color and scrollbar-width) */
+* {
+  scrollbar-color: #888 var(--bg-color);
+  scrollbar-width: thin;
 }

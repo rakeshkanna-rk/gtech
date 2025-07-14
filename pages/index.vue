@@ -1,6 +1,7 @@
 <template>
   <Hero />
   <WhoWeAre />
+  <MarqueText />
 </template>
 
 <script setup>
