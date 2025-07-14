@@ -1,7 +1,7 @@
 <template>
-  <div class="EventHeadBtn">
+  <div class="EventHeadBtn" @click="$router.push('/events')">
     <div class="new-text">NEW</div>
-    <div class="event-text">UPCOMING EVENTS</div>
+    <p>UPCOMING EVENTS &nbsp;&nbsp;&nbsp;</p>
   </div>
 </template>
 
@@ -11,6 +11,27 @@
 
 <style scoped>
 .EventHeadBtn {
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    gap: 10px;
+    background: #ffffff2c;
+    backdrop-filter: blur(6px);
+    border-radius: 100px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+    width: fit-content;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.new-text{
+  background : #5F00C0;
+  padding: 3px 20px;
+  border-radius: 20px;
+  font-weight: 600;
 }
 </style>

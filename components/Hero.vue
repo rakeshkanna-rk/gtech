@@ -35,6 +35,8 @@ const subTitle =
 .hero-content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
   gap: 20px;
 }
