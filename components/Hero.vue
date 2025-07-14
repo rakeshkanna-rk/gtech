@@ -83,7 +83,7 @@ const subTitle =
 .viewProjects {
   background-color: var(--text-color);
   font-weight: 600;
-  color: #6600CE;
+  color: #6600ce;
 }
 
 .viewProjects:hover {
@@ -91,13 +91,13 @@ const subTitle =
   color: var(--text-color);
 }
 
- .viewProjects:hover img {
-   filter: brightness(0) invert(1);
- }
+.viewProjects:hover img {
+  filter: brightness(0) invert(1);
+}
 
 .upcomingEvents {
   color: white;
   font-weight: 600;
-  border: 1px solid var(--w-p-color); 
+  border: 1px solid var(--w-p-color);
 }
 </style>
