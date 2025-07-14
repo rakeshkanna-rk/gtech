@@ -22,15 +22,12 @@ export default defineNuxtConfig({
   },
 
   css: ["@/assets/css/main.css"],
-  modules: [
-    "@nuxtjs/google-fonts",
-    [
-      "@nuxtjs/google-fonts",
-      {
-        families: {
-          Poppins: [100, 200, 300, 400, 500, 600, 700, 800, 900],
-        },
-      },
-    ],
-  ],
+  modules: ["@nuxtjs/google-fonts"],
+  googleFonts: {
+    families: {
+      Poppins: [100, 200, 300, 400, 500, 600, 700, 800, 900],
+      Cambo: [400, 700],
+      Playball: [400],
+    },
+  },  
 });

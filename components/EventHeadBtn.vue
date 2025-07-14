@@ -1,6 +1,6 @@
 <template>
   <div class="EventHeadBtn" @click="$router.push('/events')">
-    <div class="new-text">NEW</div>
+    <div class="new-text">New</div>
     <p>UPCOMING EVENTS &nbsp;&nbsp;&nbsp;</p>
   </div>
 </template>
@@ -26,6 +26,7 @@
     width: fit-content;
     cursor: pointer;
     margin-bottom: 15px;
+    transition: all 0.3s ease-in;
 }
 
 .new-text{
@@ -34,4 +35,15 @@
   border-radius: 20px;
   font-weight: 600;
 }
+
+.EventHeadBtn:hover {
+  background-color: #5F00C0;
+  color: #fff;
+}
+
+.new-text:hover, .EventHeadBtn:hover .new-text{
+  background-color: #fff;
+  color: #5F00C0;
+}
+
 </style>
