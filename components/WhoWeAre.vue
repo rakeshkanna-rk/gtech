@@ -33,7 +33,7 @@ const cards = [
     <!-- Small cards row -->
     <div class="card-row">
       <div class="info-card" v-for="i in cards" :key="i">
-        <img :src="`_nuxt/assets/icons/${i.icon}`" :alt="i.alt" class="icon">
+        <img :src="`icons/${i.icon}`" :alt="i.alt" class="icon">
         <p>{{ i.text }}</p>
       </div>
     </div>
@@ -62,7 +62,7 @@ h2 {
 }
 
 p {
-  color: rgb(156, 151, 151);
+  color: rgb(222, 222, 222);
   font-size: 18px;
   line-height: 1.6;
   max-width: 800px;
