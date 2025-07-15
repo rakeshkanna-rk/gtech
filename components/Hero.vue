@@ -42,12 +42,6 @@ const subTitle =
   padding: 0 10px;
 }
 
-@media screen and (max-width: 601px) {
-  .shimmer-text {
-    font-size: calc(5rem * 0.75);
-  }
-}
-
 @keyframes shimmer {
   0% {
     background-position: 100% 0;
@@ -145,7 +139,7 @@ const subTitle =
   }
 
   .hero h1 {
-    font-size: 4rem;
+    font-size: calc(1.5rem + 8vw);
   }
 
   .hero h2 {
