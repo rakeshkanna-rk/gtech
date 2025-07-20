@@ -1,5 +1,5 @@
 <template>
-  <section-header
+  <SectionHeader
     subheading="ACHIEVEMENTS"
     main-heading="G-Tech"
     shimmer-text="Achievements"
@@ -17,7 +17,6 @@
         <img :src="item.img" alt="achievement image" />
       </a>
     </div>
-    <NuxtLink to="/achievements" class="cta">VIEW ALL ACHIEVEMENTS</NuxtLink>
   </section>
 </template>
 
@@ -29,7 +28,7 @@ const achievements = ref([]);
 onMounted(async () => {
   try {
     const response = await fetch(
-      "https://raw.githubusercontent.com/rakeshkanna-rk/gtechdatabase/main/website/indexachievements.json"
+      "https://raw.githubusercontent.com/rakeshkanna-rk/gtechdatabase/main/website/achievements.json"
     );
     const data = await response.json();
     achievements.value = data;

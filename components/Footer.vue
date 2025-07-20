@@ -5,7 +5,7 @@
       <p>Fueling Innovation Through Art & Tech.</p>
       <div class="social">
         <img class="social" src="@/assets/icons/instagram.svg" alt="instagram">
-        <img class="social" src="@/assets/icons/linkedin.svg" alt="instagram">
+        <img class="social" src="@/assets/icons/linkedin.svg" alt="linkedin">
       </div>
     </div>
   </footer>
@@ -26,7 +26,7 @@ footer {
 .logo-holder{
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    padding: 50px;
     gap: 20px;
 }
 
