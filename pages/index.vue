@@ -2,6 +2,7 @@
   <Hero />
   <WhoWeAre />
   <MarqueText />
+  <Achievement />
 </template>
 
 <script setup>
