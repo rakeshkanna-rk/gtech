@@ -21,8 +21,8 @@ const links = [
     href: "/about",
   },
   {
-    name: "DOMAINS",
-    href: "/domains",
+    name: "CONTACT US",
+    href: "/contact",
   },
 ];
 </script>
