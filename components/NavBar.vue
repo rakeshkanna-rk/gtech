@@ -21,8 +21,8 @@ const links = [
     href: "/about",
   },
   {
-    name: "CONTACT US",
-    href: "/contact",
+    name: "EVENTS",
+    href: "/events",
   },
   {
     name: "GALLERY",
