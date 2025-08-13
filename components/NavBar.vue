@@ -24,6 +24,14 @@ const links = [
     name: "CONTACT US",
     href: "/contact",
   },
+  {
+    name: "GALLERY",
+    href: "/gallery",
+  },
+  {
+    name: "LEADS",
+    href: "/leads",
+  },
 ];
 </script>
 
