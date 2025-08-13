@@ -1,21 +1,21 @@
 <template>
   <section class="hero">
     <div class="hero-content">
-      <!-- <EventHeadBtn /> -->
+      <EventHeadBtn />
       <h1 class="shimmer-text">Generalize Technology</h1>
       <h2>A Fine Arts Association at GNC</h2>
       <p>
         {{ subTitle }}
       </p>
       <!-- Commented the below code for now -->
-      <!-- <div class="ctaSection">
+      <div class="ctaSection">
         <NuxtLink to="/projects" class="cta viewProjects"
           >VIEW PROJECTS <img src="~/assets/icons/right-arrow.svg" alt=""
         /></NuxtLink>
         <NuxtLink to="/register" class="cta upcomingEvents"
           >REGISTER NOW</NuxtLink
         >
-      </div> -->
+      </div>
     </div>
   </section>
 </template>
