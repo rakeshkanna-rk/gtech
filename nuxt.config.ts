@@ -29,5 +29,5 @@ export default defineNuxtConfig({
       Cambo: [400, 700],
       Playball: [400],
     },
-  },  
+  },
 });
