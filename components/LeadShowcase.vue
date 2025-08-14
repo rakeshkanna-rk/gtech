@@ -45,10 +45,10 @@ const alignmentClass = props.align === "right" ? "reverse" : "";
 .frame {
   flex: 0 0 280px;
   padding: 10px;
-  border: 3px solid #333;
+  border: 3px solid #b8a9c9;
   border-radius: 10px;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(1, 1, 1, 1);
   background: transparent;
 }
 
@@ -62,7 +62,7 @@ const alignmentClass = props.align === "right" ? "reverse" : "";
 .frame h1 {
   font-size: 1.4rem;
   margin: 12px 0 0;
-  color: #333;
+  color: #7b5fbf;
 }
 
 .aboutLead {
@@ -73,9 +73,9 @@ const alignmentClass = props.align === "right" ? "reverse" : "";
 .aboutLead p {
   font-size: 1.1rem;
   line-height: 1.7;
-  color: #333;
+  color: #4b4453;
   padding-left: 15px;
-  border-left: 4px solid #333;
+  border-left: 4px solid #7b5fbf;
   border-radius: 4px;
   background: transparent;
 }
@@ -84,7 +84,7 @@ const alignmentClass = props.align === "right" ? "reverse" : "";
   padding-left: 0;
   padding-right: 15px;
   border-left: none;
-  border-right: 4px solid #333;
+  border-right: 4px solid #7b5fbf;
 }
 
 @media (max-width: 768px) {
