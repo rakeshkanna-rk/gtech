@@ -37,9 +37,9 @@ const leadsData = [
   },
   {
     id: 5,
-    name: "Aishwariya",
+    name: "Aishwarya Lakshmi",
     image: aiswariaImg,
-    about: "Aishwaria is the cultural secretady for the GTECH club.",
+    about: "Aishwarya Lakshmi is the cultural secretady for the GTECH club.",
   },
   {
     id: 6,
