@@ -20,14 +20,14 @@ const links = [
     name: "ABOUT",
     href: "/about",
   },
-  {
-    name: "EVENTS",
-    href: "/events",
-  },
-  {
-    name: "GALLERY",
-    href: "/gallery",
-  },
+  // {
+  //   name: "EVENTS",
+  //   href: "/events",
+  // },
+  // {
+  //   name: "GALLERY",
+  //   href: "/gallery",
+  // },
   {
     name: "LEADS",
     href: "/leads",
