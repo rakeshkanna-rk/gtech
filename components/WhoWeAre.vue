@@ -33,7 +33,7 @@ const cards = [
     <!-- Small cards row -->
     <div class="card-row">
       <div class="info-card" v-for="i in cards" :key="i">
-        <img :src="`icons/${i.icon}`" :alt="i.alt" class="icon">
+        <img :src="`icons/wwa/${i.icon}`" :alt="i.alt" class="icon">
         <p>{{ i.text }}</p>
       </div>
     </div>

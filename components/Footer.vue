@@ -4,8 +4,8 @@
       <img class="logo" src="@/assets/logo.svg" alt="logo" />
       <p>Fueling Innovation Through Art & Tech.</p>
       <div class="social">
-        <img class="social" src="@/assets/icons/instagram.svg" alt="instagram">
-        <img class="social" src="@/assets/icons/linkedin.svg" alt="linkedin">
+        <img @click="$router.push('https://www.instagram.com/g_techgnc/')" class="social" src="@/assets/icons/instagram.svg" alt="instagram">
+        <img @click="$router.push('https://www.linkedin.com/in/g-tech-club-gnc-94769b368/')" class="social" src="@/assets/icons/linkedin.svg" alt="linkedin">
       </div>
     </div>
   </footer>

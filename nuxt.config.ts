@@ -9,6 +9,17 @@ export default defineNuxtConfig({
     "@/": resolve(__dirname, "./"),
   },
 
+  hooks: {
+    'pages:extend'(pages) {
+      // Replace or remove certain pages
+      pages.forEach(page => {
+        if (['/gallery', '/events', '/joinus', '/contact'].includes(page.path)) {
+          page.file = '~/pages/underdevelopment.vue' // Override file for these routes
+        }
+      });
+    }
+  },
+
   app: {
     head: {
       link: [

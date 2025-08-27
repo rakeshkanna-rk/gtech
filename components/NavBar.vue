@@ -20,14 +20,14 @@ const links = [
     name: "ABOUT",
     href: "/about",
   },
-  // {
-  //   name: "EVENTS",
-  //   href: "/events",
-  // },
-  // {
-  //   name: "GALLERY",
-  //   href: "/gallery",
-  // },
+  {
+    name: "EVENTS",
+    href: "/events",
+  },
+  {
+    name: "GALLERY",
+    href: "/gallery",
+  },
   {
     name: "LEADS",
     href: "/leads",
@@ -57,7 +57,7 @@ const links = [
         </NuxtLink>
       </div>
 
-      <NuxtLink to="/" class="join-button disk">✦ &nbsp;Join Us</NuxtLink>
+      <NuxtLink to="/joinus" class="join-button disk">✦ &nbsp;Join Us</NuxtLink>
 
       <!-- Hamburger for Mobile -->
       <div class="hamburger" @click="toggleMobileMenu">
@@ -79,7 +79,7 @@ const links = [
         >
           {{ link.name }}
         </NuxtLink>
-        <NuxtLink to="/" class="join-button mobi" @click="closeMobileMenu"
+        <NuxtLink to="/join-us" class="join-button mobi" @click="closeMobileMenu"
           >✦ &nbsp;Join Us</NuxtLink
         >
       </div>

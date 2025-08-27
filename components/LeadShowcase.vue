@@ -5,7 +5,7 @@
       <h1>{{ leadName }}</h1>
     </div>
     <div class="aboutLead">
-      <p>{{ leadAbout }}</p>
+      <p><h2>{{ leadPosition }}</h2> {{ leadAbout }}</p>
     </div>
   </div>
 </template>
@@ -15,6 +15,7 @@ const props = defineProps({
   leadName: String,
   leadPic: String,
   leadAbout: String,
+  leadPosition: String,
   alt: String,
   align: {
     type: String,
@@ -46,16 +47,16 @@ const alignmentClass = props.align === "right" ? "reverse" : "";
   flex: 0 0 280px;
   padding: 10px;
   border: 3px solid #b8a9c9;
-  border-radius: 10px;
+  border-radius: 20px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(1, 1, 1, 1);
   background: transparent;
 }
 
 .frame img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
   object-fit: cover;
 }
 
@@ -68,16 +69,32 @@ const alignmentClass = props.align === "right" ? "reverse" : "";
 .aboutLead {
   flex: 1;
   min-width: 250px;
+  width: 100%;
 }
+
 
 .aboutLead p {
   font-size: 1.1rem;
   line-height: 1.7;
-  color: #4b4453;
+  color: #fefefe;
   padding-left: 15px;
   border-left: 4px solid #7b5fbf;
   border-radius: 4px;
   background: transparent;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutLead p {
+    font-size: 0.9rem;
+  }
+  
+}
+
+.aboutLead h2 {
+  font-size: 1.4rem;
+  margin: 0 0 10px;
+  color: #ffffff;
 }
 
 .container.reverse .aboutLead p {
@@ -99,7 +116,7 @@ const alignmentClass = props.align === "right" ? "reverse" : "";
   .container.reverse .aboutLead p {
     border-left: none;
     border-right: none;
-    border-top: 4px solid #333;
+    border-top: 4px solid #d2d2d2;
     padding-top: 10px;
     padding-left: 0;
     padding-right: 0;
