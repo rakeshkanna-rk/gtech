@@ -1,6 +1,7 @@
 <template>
   <Hero />
   <WhoWeAre />
+  <Domains />
   <MarqueText />
   <Achievement />
 </template>
