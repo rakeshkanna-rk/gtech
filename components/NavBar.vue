@@ -13,24 +13,24 @@ const closeMobileMenu = () => {
 
 const links = [
   {
+    name: "HOME",
+    href: "/",
+  },
+  {
     name: "ABOUT",
     href: "/about",
   },
+  // {
+  //   name: "EVENTS",
+  //   href: "/events",
+  // },
+  // {
+  //   name: "GALLERY",
+  //   href: "/gallery",
+  // },
   {
-    name: "EVENTS",
-    href: "/events",
-  },
-  {
-    name: "DOMAINS",
-    href: "/domains",
-  },
-  {
-    name: "BLOG",
-    href: "/blog",
-  },
-  {
-    name: "LINKS",
-    href: "/links",
+    name: "LEADS",
+    href: "/leads",
   },
 ];
 </script>
@@ -224,7 +224,6 @@ const links = [
   color: #ffffff;
 }
 
-
 /* Responsive */
 @media (max-width: 768px) {
   .navbar-links {
@@ -270,6 +269,5 @@ const links = [
     scale: 1.2;
     margin-top: 1rem;
   }
-
 }
 </style>

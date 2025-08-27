@@ -1,20 +1,21 @@
 <template>
   <section class="hero">
     <div class="hero-content">
-      <EventHeadBtn />
+      <!-- <EventHeadBtn /> -->
       <h1 class="shimmer-text">Generalize Technology</h1>
       <h2>A Fine Arts Association at GNC</h2>
       <p>
         {{ subTitle }}
       </p>
-      <div class="ctaSection">
+      <!-- Commented the below code for now -->
+      <!-- <div class="ctaSection">
         <NuxtLink to="/projects" class="cta viewProjects"
           >VIEW PROJECTS <img src="~/assets/icons/right-arrow.svg" alt=""
         /></NuxtLink>
         <NuxtLink to="/register" class="cta upcomingEvents"
           >REGISTER NOW</NuxtLink
         >
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
@@ -26,7 +27,6 @@ const subTitle =
 </script>
 
 <style scoped>
-
 .shimmer-text {
   background: linear-gradient(90deg, #ddd 50%, #aaa 75%, #ddd 100%);
   background-size: 200% 100%;
@@ -133,7 +133,6 @@ const subTitle =
 }
 
 @media screen and (max-width: 601px) {
-
   .hero {
     padding: 4rem 1rem;
   }
@@ -156,7 +155,5 @@ const subTitle =
     text-align: center;
     font-size: 18px;
   }
-  
-  
 }
 </style>
