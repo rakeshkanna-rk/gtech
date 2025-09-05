@@ -8,6 +8,7 @@
       </div>
     </div>
     <AboutWWA />
+    <IndexLead />
   </section>
 </template>
 

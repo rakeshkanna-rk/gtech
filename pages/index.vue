@@ -4,6 +4,7 @@
   <Domains />
   <MarqueText />
   <Achievement />
+  <IndexLead />
 </template>
 
 <script setup>
