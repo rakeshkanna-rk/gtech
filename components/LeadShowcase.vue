@@ -5,7 +5,10 @@
       <h1>{{ leadName }}</h1>
     </div>
     <div class="aboutLead">
-      <p><h2>{{ leadPosition }}</h2> {{ leadAbout }}</p>
+      <p>
+        <span>{{ leadPosition }}</span
+        ><br />{{ leadAbout }}
+      </p>
     </div>
   </div>
 </template>
@@ -72,7 +75,6 @@ const alignmentClass = props.align === "right" ? "reverse" : "";
   width: 100%;
 }
 
-
 .aboutLead p {
   font-size: 1.1rem;
   line-height: 1.7;
@@ -88,11 +90,11 @@ const alignmentClass = props.align === "right" ? "reverse" : "";
   .aboutLead p {
     font-size: 0.9rem;
   }
-  
 }
 
-.aboutLead h2 {
+.aboutLead span {
   font-size: 1.4rem;
+  font-weight: bold;
   margin: 0 0 10px;
   color: #ffffff;
 }
